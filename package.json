@@ -1,0 +1,17 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "distube": "^5.0.0",
+    "@distube/spotify": "latest",
+    "@distube/yt-dlp": "latest",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
+    "@discordjs/voice": "latest"
+  }
+}
